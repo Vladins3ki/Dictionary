@@ -9,7 +9,7 @@ document.getElementById("add").onclick = function(){
   
 }
 
-document.getElementById("addSearch").onclick = function(){
+document.getElementById("searchButton").onclick = function(){
     let searchInput = document.getElementById("search").value;
     let searchValue = (list.indexOf(searchInput) > -1);
     if(searchValue == true){
