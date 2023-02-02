@@ -1,7 +1,7 @@
 let list = [];
 
 
-document.getElementById("add").onclick = function(){
+document.getElementById("addButton").onclick = function(){
     let word = document.getElementById("words").value;
     list.push(word);
     document.getElementById("words").value = "";
